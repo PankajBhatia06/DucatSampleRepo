@@ -45,6 +45,7 @@ namespace SampleMvcProject.Controllers
             var user = objUserService.GetUserById(id);
             ViewBag.IsReadOnly = true;
             return View("Create", user);
+
         }
 
         [HttpGet]

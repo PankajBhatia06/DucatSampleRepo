@@ -53,6 +53,8 @@ namespace SampleMvcProject.Controllers
         {
             var user = objUserService.GetUserById(id);
             return View(user);
+
+
         }
 
 
